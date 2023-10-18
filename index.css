@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Life+Savers&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Ingrid+Darling&family=Life+Savers&display=swap');
 
 body{
     background-image: url('images/LIN\ BG.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 
-
+/* INDEX PAGE CSS */
 #navbar{
     font-family: 'Life Savers', serif;
     width: 100%;
     font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px white;
+    margin-top: 20px;
 }
 
 #nav-logo img{
@@ -21,6 +24,11 @@ body{
 
 #nav-pages{
     width: 500px;
+}
+
+#nav-pages a{
+    text-decoration: none;
+    color: white;
 }
 
 #home{
@@ -36,5 +44,46 @@ body{
 
 .dropdown a{
     text-decoration: none;
-    color: black;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+}
+
+/* INDEX PAGE CSS END */
+
+
+/* ABOUT PAGE CSS */
+
+#about {
+    color:  white;
+    font-family: 'EB Garamond', serif;
+    margin-top: 50px;
+}
+
+#about h1{
+    font-size: 90px;
+    text-shadow: 0 0 50px white;
+    margin-bottom:  30px;
+}
+
+#about p{
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 10px white;
+}
+
+#gallery-about{
+    margin-bottom: 50px;
+}
+
+#gallery-about .carousel-inner{
+    height: 600px;
+}
+
+#gallery-about .carousel-caption{
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.300);
 }

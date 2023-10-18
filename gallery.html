@@ -8,17 +8,27 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="navbar">
+    <div class="container d-flex justify-content-between align-items-center" id="navbar">
         <div id="nav-logo">
-            
+            <img src="images/lin.png" alt="">
         </div>
-        <div id="nav-pages">
-            <h3>Home</h3>
-            <h3>About Us</h3>
-            <h3>Gallery</h3>
-            <h3>Socials</h3>
-            <h3>Statistics</h3>
-            <h3>Upcoming Events</h3>
+        
+        <div class="d-flex justify-content-around" id="nav-pages">
+            <a href="index.html"><h3>Home</h3></a>
+            <a href="about.html"><h3>About Us</h3></a>
+            <a href="contacts.html"><h3>Contacts</h3></a>
+            
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  
+                </a>
+              
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#"><h3>Gallery</h3></a>
+                  <a class="dropdown-item" href="#"><h3>Statistics</h3></a>
+                  <a class="dropdown-item" href="#"><h3>Upcoming Events</h3></a>
+                </div>
+            </div>
         </div>
     </div>
 
