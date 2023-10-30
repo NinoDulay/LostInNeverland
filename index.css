@@ -16,7 +16,6 @@ body{
     margin-top: 30px;
 }
 
-
 #nav-logo img{
     width: 76px;
     -webkit-filter: drop-shadow(0px 0px 15px #fff);
@@ -24,13 +23,13 @@ body{
 }
 
 #nav-pages{
-    width: 600px;
+    width: 500px;
 }
 
 #nav-pages a{
     text-decoration: none;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #nav-pages a h3{
@@ -38,15 +37,15 @@ body{
 }
 
 #home{
-    height: 100vh;
+    height: 80vh;
 }
 
 #home h1{
     font-family: 'Ingrid Darling', cursive;
-    font-size: 200px;
+    font-size: 150px;
     color: white;
     text-shadow: 0 0 50px white;
-    /* margin-bottom: ; */
+    margin-bottom: 100px;
 }
 
 .dropdown a{
@@ -56,8 +55,9 @@ body{
 }
 
 .dropdown-menu{
-    background-color: transparent;  
-    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.9);  
+    
+    margin-left: -180px;
 }
 
 .dropdown-item:hover{
