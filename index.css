@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Ingrid+Darling&family=Life+Savers&display=swap');
 
 body{
-    background-image: url('images/LIN\ BG.png');
+    background-image: url('images/bg 1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 /* INDEX PAGE CSS */
@@ -93,7 +97,6 @@ body{
 }
 
 #gallery-about .carousel-inner{
-    height: 600px;
     border-radius: 50px;
     /* border: 1px solid white; */
     box-shadow: 0 0 10px white;
@@ -144,34 +147,43 @@ body{
     margin-top: 100px;
 }
 
+#socials a {
+    text-decoration: none;
+    color: white;
+}
+
+#socials a:hover{
+    text-shadow: 0 0 10px white;
+}
+
 #socials img{
-    width: 100px;
+    width: 80px;
     margin-right: 20px;
-    -webkit-filter: drop-shadow(0px 0px 50px #fff);
-    filter: drop-shadow(0px 0px 50px #fff);
+    -webkit-filter: drop-shadow(0px 0px 10px #ffffff3d);
+    filter: drop-shadow(0px 0px 10px #ffffff6a);
 }
 
 #connect h1{
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 20px;
-    text-shadow: 0 0 20px white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.619);
 }
 
 #contact h1{
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 20px;
-    text-shadow: 0 0 20px white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.555);
 }
 
 #copyright{
     color: white;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 #copyright h1{
     font-family: 'Ingrid Darling', cursive;
-    font-size: 100px;
-    text-shadow: 0 0 30px white;
+    font-size: 80px;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.496);
 }
 
 #copyright h2{
@@ -180,3 +192,27 @@ body{
     font-size: 20px;
 }
 /* Contacts Page End */
+
+/* Gallery Page Start */
+#gallery{
+    margin-top: 40px;
+    color:  white;
+}
+
+.gallery-row h1{   
+    font-family: 'EB Garamond', serif;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.gallery-row{
+    margin-top: 50px;
+}
+
+#gallery > h1{
+    font-family: 'Life Savers', serif;
+    font-size: 60px;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+/* Gallery Page End */
