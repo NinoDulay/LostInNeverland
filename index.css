@@ -202,16 +202,19 @@ body::-webkit-scrollbar{
 .gallery-row h1{   
     font-family: 'EB Garamond', serif;
     text-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .gallery-row{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 #gallery > h1{
     font-family: 'Life Savers', serif;
     font-size: 60px;
     text-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-bottom: 50px;
 }
 
 
