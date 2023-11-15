@@ -26,6 +26,12 @@ body::-webkit-scrollbar{
     filter: drop-shadow(0px 0px 15px #fff);
 }
 
+#nav-logo img:hover{
+    filter: brightness(50);
+    -webkit-filter: drop-shadow(0px 0px 15px #fff);
+    filter: drop-shadow(0px 0px 15px #fff);
+}
+
 #nav-pages{
     width: 500px;
 }
@@ -72,6 +78,13 @@ body::-webkit-scrollbar{
 .dropdown-item:hover{
     text-shadow: 0 0 10px white;
     background-color: rgba(255, 255, 255, 0.38);
+    color: rgb(219, 218, 216);
+}
+
+.dropdown-toggle:hover{
+    -webkit-filter: drop-shadow(0px 0px 5px #fff);
+    filter: drop-shadow(0px 0px 5px #fff);
+
     color: rgb(219, 218, 216);
 }
 
